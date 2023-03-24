@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">Grading System Assignment</h1>
+      <div class="subcontainer">
+        <div class="left">
+          <h1>Grading System in Js</h1>
+          <div class="input">
+            <input
+              type="number"
+              class="inputeach"
+              id="english"
+              required
+              placeholder="English"
+            />
+            <input
+              type="number"
+              class="inputeach"
+              id="maths"
+              required
+              placeholder="Maths"
+            />
+            <input
+              type="number"
+              id="physics"
+              class="inputeach"
+              required
+              placeholder="Physics"
+            />
+            <input
+              type="number"
+              class="inputeach"
+              id="chemistry"
+              required
+              placeholder="Chemistry"
+            />
+            <input
+              type="number"
+              class="inputeach"
+              id="computer"
+              required
+              placeholder="Computer"
+            />
+            <button class="inputeach" id="btn" onclick="calculate()">
+              Calculate
+            </button>
+          </div>
+        </div>
+        <div class="right">
+          <div class="rightcont">
+            <h4 class="answer">Total</h4>
+            <h3 id="total"></h3>
+          </div>
+          <div class="rightcont">
+            <h4 class="answer">Average</h4>
+
+            <h3 id="average"></h3>
+          </div>
+          <div class="rightcont">
+            <h4 class="answer">Grade</h4>
+
+            <h3 id="grade"></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
